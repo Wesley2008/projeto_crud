@@ -6,7 +6,7 @@ import Tabela from "./Tabela";
 function App() {
   return (
     <div className="App">
-      <Formulario />
+      <Formulario/>
       <Tabela />
     </div>
   );

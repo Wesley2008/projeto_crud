@@ -1,17 +1,23 @@
-function Formulario(){
+import "./Formulario.css";
+
+function Formulario() {
     return (
-        <form>
+        <form className="formulario">
             <h1>Formulário</h1>
 
-            <input type="text" placeholder="Nome"/>
-            <input type="text" placeholder="Marca"/>
+            <div className="inputs">
+                <input type="text" placeholder="Nome" />
+                <input type="text" placeholder="Marca" />
+            </div>
 
-            <input type="button" value="Cadastrar"/>
-            <input type="button" value="Alterar"/>
-            <input type="button" value="Remover"/>
-            <input type="button" value="Cancelar"/>
+            <div className="botoes">
+                <button type="button">Cadastrar</button>
+                <button type="button">Alterar</button>
+                <button type="button">Remover</button>
+                <button type="button">Cancelar</button>
+            </div>
         </form>
-    )
+    );
 }
 
 export default Formulario;
