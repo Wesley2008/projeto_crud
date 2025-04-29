@@ -1,31 +1,14 @@
-.App {
-  min-height: 100vh;
-  padding: 40px 20px;
-  background: linear-gradient(to right, #e3f2fd, #f5f5f5);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
+form{
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
 }
-
-/* Se quiser dar um estilo para os formulários também */
-form {
-  background-color: white;
-  padding: 24px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 600px;
+form input{
+  margin-bottom: 5px;
 }
-
-/* Responsividade */
-@media (max-width: 600px) {
-  .App {
-    padding: 20px 10px;
-  }
-
-  form, .tabela-estilizada {
-    width: 100%;
-  }
+form input[type="button"]{
+  margin-right: 5px;
+}
+table{
+  margin: 30px auto;
 }

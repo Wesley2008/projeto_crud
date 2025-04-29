@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./App.css";
 import Formulario from "./Formulario";
 import Tabela from "./Tabela";
 
@@ -15,9 +16,10 @@ function App(){
 
     return(
         <div>
-            <p>{JSON.stringify(produtos)}</p>
             <Formulario botao={btnCadastrar}/>
-            <Tabela/>
+            <Tabela vetor = {produtos}/>
         </div>
     )
 }
+
+export default App;
